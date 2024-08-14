@@ -9,19 +9,42 @@
 /* Begin PBXBuildFile section */
 		9DA924E92C6AA1DF0020345A /* AuctionDraftAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA924E82C6AA1DF0020345A /* AuctionDraftAssistantApp.swift */; };
 		9DA924EB2C6AA1DF0020345A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA924EA2C6AA1DF0020345A /* ContentView.swift */; };
-		9DA924ED2C6AA1DF0020345A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA924EC2C6AA1DF0020345A /* Item.swift */; };
 		9DA924EF2C6AA1E10020345A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA924EE2C6AA1E10020345A /* Assets.xcassets */; };
 		9DA924F22C6AA1E10020345A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA924F12C6AA1E10020345A /* Preview Assets.xcassets */; };
+		9DA924FB2C6AA2850020345A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA924FA2C6AA2850020345A /* Player.swift */; };
+		9DA924FD2C6AA45A0020345A /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA924FC2C6AA45A0020345A /* Team.swift */; };
+		9DA924FF2C6AA6EF0020345A /* TeamManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA924FE2C6AA6EF0020345A /* TeamManagementView.swift */; };
+		9DA925012C6AA75C0020345A /* PageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA925002C6AA75C0020345A /* PageInfo.swift */; };
+		9DA925032C6AAA230020345A /* TeamRosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA925022C6AAA230020345A /* TeamRosterView.swift */; };
+		9DA925052C6AAD250020345A /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA925042C6AAD250020345A /* TeamDetailsView.swift */; };
+		9DA925072C6B7EBD0020345A /* PlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA925062C6B7EBD0020345A /* PlayerExtension.swift */; };
+		9DA925092C6B83FB0020345A /* PlayerImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA925082C6B83FB0020345A /* PlayerImportService.swift */; };
+		9DA9250C2C6BA4240020345A /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA9250B2C6BA4240020345A /* SwiftSoup */; };
+		9DA925102C6BED520020345A /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA9250F2C6BED520020345A /* Position.swift */; };
+		9DA925122C6C08820020345A /* DraftBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA925112C6C08820020345A /* DraftBoardView.swift */; };
+		9DA925142C6C089E0020345A /* PlayerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA925132C6C089E0020345A /* PlayerRowView.swift */; };
+		9DA925162C6C0BAA0020345A /* DraftActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA925152C6C0BAA0020345A /* DraftActionSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DA924E52C6AA1DF0020345A /* AuctionDraftAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuctionDraftAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA924E82C6AA1DF0020345A /* AuctionDraftAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionDraftAssistantApp.swift; sourceTree = "<group>"; };
 		9DA924EA2C6AA1DF0020345A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9DA924EC2C6AA1DF0020345A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9DA924EE2C6AA1E10020345A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA924F12C6AA1E10020345A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DA924F32C6AA1E10020345A /* AuctionDraftAssistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AuctionDraftAssistant.entitlements; sourceTree = "<group>"; };
+		9DA924FA2C6AA2850020345A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9DA924FC2C6AA45A0020345A /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		9DA924FE2C6AA6EF0020345A /* TeamManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManagementView.swift; sourceTree = "<group>"; };
+		9DA925002C6AA75C0020345A /* PageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInfo.swift; sourceTree = "<group>"; };
+		9DA925022C6AAA230020345A /* TeamRosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRosterView.swift; sourceTree = "<group>"; };
+		9DA925042C6AAD250020345A /* TeamDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
+		9DA925062C6B7EBD0020345A /* PlayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerExtension.swift; sourceTree = "<group>"; };
+		9DA925082C6B83FB0020345A /* PlayerImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerImportService.swift; sourceTree = "<group>"; };
+		9DA9250F2C6BED520020345A /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		9DA925112C6C08820020345A /* DraftBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftBoardView.swift; sourceTree = "<group>"; };
+		9DA925132C6C089E0020345A /* PlayerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRowView.swift; sourceTree = "<group>"; };
+		9DA925152C6C0BAA0020345A /* DraftActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftActionSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA9250C2C6BA4240020345A /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +78,21 @@
 		9DA924E72C6AA1DF0020345A /* AuctionDraftAssistant */ = {
 			isa = PBXGroup;
 			children = (
-				9DA924E82C6AA1DF0020345A /* AuctionDraftAssistantApp.swift */,
-				9DA924EA2C6AA1DF0020345A /* ContentView.swift */,
-				9DA924EC2C6AA1DF0020345A /* Item.swift */,
 				9DA924EE2C6AA1E10020345A /* Assets.xcassets */,
 				9DA924F32C6AA1E10020345A /* AuctionDraftAssistant.entitlements */,
+				9DA924E82C6AA1DF0020345A /* AuctionDraftAssistantApp.swift */,
+				9DA924EA2C6AA1DF0020345A /* ContentView.swift */,
+				9DA924F92C6AA2750020345A /* Models */,
+				9DA925002C6AA75C0020345A /* PageInfo.swift */,
+				9DA925082C6B83FB0020345A /* PlayerImportService.swift */,
 				9DA924F02C6AA1E10020345A /* Preview Content */,
+				9DA925042C6AAD250020345A /* TeamDetailsView.swift */,
+				9DA924FE2C6AA6EF0020345A /* TeamManagementView.swift */,
+				9DA925022C6AAA230020345A /* TeamRosterView.swift */,
+				9DA9250F2C6BED520020345A /* Position.swift */,
+				9DA925112C6C08820020345A /* DraftBoardView.swift */,
+				9DA925132C6C089E0020345A /* PlayerRowView.swift */,
+				9DA925152C6C0BAA0020345A /* DraftActionSheetView.swift */,
 			);
 			path = AuctionDraftAssistant;
 			sourceTree = "<group>";
@@ -70,6 +103,16 @@
 				9DA924F12C6AA1E10020345A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DA924F92C6AA2750020345A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DA924FA2C6AA2850020345A /* Player.swift */,
+				9DA924FC2C6AA45A0020345A /* Team.swift */,
+				9DA925062C6B7EBD0020345A /* PlayerExtension.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +131,9 @@
 			dependencies = (
 			);
 			name = AuctionDraftAssistant;
+			packageProductDependencies = (
+				9DA9250B2C6BA4240020345A /* SwiftSoup */,
+			);
 			productName = AuctionDraftAssistant;
 			productReference = 9DA924E52C6AA1DF0020345A /* AuctionDraftAssistant.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +162,9 @@
 				Base,
 			);
 			mainGroup = 9DA924DC2C6AA1DF0020345A;
+			packageReferences = (
+				9DA9250A2C6BA4240020345A /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 9DA924E62C6AA1DF0020345A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,9 +191,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA925102C6BED520020345A /* Position.swift in Sources */,
+				9DA924FB2C6AA2850020345A /* Player.swift in Sources */,
+				9DA924FF2C6AA6EF0020345A /* TeamManagementView.swift in Sources */,
+				9DA925122C6C08820020345A /* DraftBoardView.swift in Sources */,
+				9DA925162C6C0BAA0020345A /* DraftActionSheetView.swift in Sources */,
+				9DA925012C6AA75C0020345A /* PageInfo.swift in Sources */,
+				9DA925072C6B7EBD0020345A /* PlayerExtension.swift in Sources */,
+				9DA925142C6C089E0020345A /* PlayerRowView.swift in Sources */,
 				9DA924EB2C6AA1DF0020345A /* ContentView.swift in Sources */,
-				9DA924ED2C6AA1DF0020345A /* Item.swift in Sources */,
+				9DA925032C6AAA230020345A /* TeamRosterView.swift in Sources */,
+				9DA925052C6AAD250020345A /* TeamDetailsView.swift in Sources */,
+				9DA924FD2C6AA45A0020345A /* Team.swift in Sources */,
 				9DA924E92C6AA1DF0020345A /* AuctionDraftAssistantApp.swift in Sources */,
+				9DA925092C6B83FB0020345A /* PlayerImportService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DA9250A2C6BA4240020345A /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DA9250B2C6BA4240020345A /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DA9250A2C6BA4240020345A /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DA924DD2C6AA1DF0020345A /* Project object */;
 }

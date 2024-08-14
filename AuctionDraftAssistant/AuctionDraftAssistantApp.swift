@@ -10,9 +10,12 @@ import SwiftData
 
 @main
 struct AuctionDraftAssistantApp: App {
+    @State private var showImportComplete: Bool = false
+    @State private var showImportError: Bool = false
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Player.self,
+            Team.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +28,7 @@ struct AuctionDraftAssistantApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(playerImportService: PlayerImportService(modelContext: ModelContext(sharedModelContainer), onComplete: { showImportComplete = true }, onError: { showImportError = true})) .alert(Text("Import complete."), isPresented: $showImportComplete) {} .alert(Text("Import failed."), isPresented: $showImportError) {}
         }
         .modelContainer(sharedModelContainer)
     }
