@@ -6,10 +6,7 @@
          contextName = "closure #1 in closure #2 in closure #1 in TeamRosterView.body.getter:TeamRosterView.swift">
       </ContextState>
       <ContextState
-         contextName = "closure #1 in PlayerImportService.importPlayers():PlayerImportService.swift">
-      </ContextState>
-      <ContextState
-         contextName = "TeamRosterView.init(team:):TeamRosterView.swift">
+         contextName = "closure #1 in PlayerImportService.doImport(url:parser:):PlayerImportService.swift">
       </ContextState>
       <ContextState
          contextName = "PlayerImportService.importPlayers():PlayerImportService.swift">
@@ -20,10 +17,24 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "closure #1 in TeamRosterView.body.getter:TeamRosterView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in DraftBoardView.body.getter:DraftBoardView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #2 in closure #1 in TeamManagementView.body.getter:TeamManagementView.swift">
       </ContextState>
       <ContextState
-         contextName = "closure #1 in TeamRosterView.body.getter:TeamRosterView.swift">
+         contextName = "TeamRosterView.init(team:):TeamRosterView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in PlayerImportService.importPlayers():PlayerImportService.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>
